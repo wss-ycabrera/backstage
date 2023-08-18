@@ -281,8 +281,8 @@ describe('UnregisterEntityDialog', () => {
       expect(
         screen.getByText(/will unregister the following entities/),
       ).toBeInTheDocument();
-      expect(screen.getByText(/k1:ns1\/n1/)).toBeInTheDocument();
-      expect(screen.getByText(/k2:ns2\/n2/)).toBeInTheDocument();
+      expect(screen.getByText(/ns1\/n1/)).toBeInTheDocument();
+      expect(screen.getByText(/ns2\/n2/)).toBeInTheDocument();
     });
 
     await userEvent.click(screen.getByText('Unregister Location'));
@@ -329,8 +329,8 @@ describe('UnregisterEntityDialog', () => {
       expect(
         screen.getByText(/will unregister the following entities/),
       ).toBeInTheDocument();
-      expect(screen.getByText(/k1:ns1\/n1/)).toBeInTheDocument();
-      expect(screen.getByText(/k2:ns2\/n2/)).toBeInTheDocument();
+      expect(screen.getByText(/ns1\/n1/)).toBeInTheDocument();
+      expect(screen.getByText(/ns2\/n2/)).toBeInTheDocument();
     });
 
     await userEvent.click(screen.getByText('Advanced Options'));
