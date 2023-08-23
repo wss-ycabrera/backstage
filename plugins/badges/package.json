@@ -52,7 +52,7 @@
     "@backstage/dev-utils": "workspace:^",
     "@backstage/test-utils": "workspace:^",
     "@testing-library/jest-dom": "^5.16.5",
-    "@types/node": "^16.11.26"
+    "@types/node": "^18.17.8"
   },
   "files": [
     "dist"
