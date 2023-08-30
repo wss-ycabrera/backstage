@@ -1,5 +1,11 @@
 # @backstage/plugin-user-settings
 
+## 0.7.9-next.2
+
+### Patch Changes
+
+- e03f3ee2be94: changed auto theme tooltip title to camel case
+
 ## 0.7.9-next.1
 
 ### Patch Changes

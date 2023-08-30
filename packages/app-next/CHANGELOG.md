@@ -1,5 +1,14 @@
 # example-app-next
 
+## 0.0.1-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-user-settings@0.7.9-next.2
+  - @backstage/cli@0.22.13-next.1
+  - @backstage/plugin-newrelic@0.3.40-next.1
+
 ## 0.0.1-next.0
 
 ### Patch Changes
